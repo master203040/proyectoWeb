@@ -1,0 +1,33 @@
+.title{
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navigation{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title1{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title2{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    
+}
+
+p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-style:italic;
+}
+
+.footer{
+    text-align: center;
+    background-color: dimgray;
+    color: white;
+}
