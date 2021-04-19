@@ -1,44 +1,101 @@
-.title{
-    font-size: 45px;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.164);
+}
+
+/*----inicio del codigo menu y banner------*/
+img{
+    width: 100%;
+    
+}
+
+.cabeza{
+    position: absolute;
+    left: 35px;
+    bottom: 300px;
+    font-size: 50px;
     font-family: 'Roboto', sans-serif;
-}
-
-.navigation{
-    font-size: 15px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.title1{
-    font-size: 30px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.parrafo{
-    font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
-    font-style:italic;
-}
-
-.terminos{
-    font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
-    font-style:italic;
-}
-
-p{
-    font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
-    font-style:italic; 
-}
-
-label{
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.footer{
-    text-align: center;
-    background-color: dimgray;
     color: white;
 }
 
+.menu ul {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    left: 230px;
+    bottom: 550px;
+}
+
+.menu a{
+    text-decoration: none;
+    margin: 8px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: white;  
+}
+/*----fin del codigo-----*/
+
+.container1{
+    position: relative;
+    left: 200px;
+    top: 230px;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.411);
+    border-radius: 8px;
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    padding: 40px;  
+}
+
+#foto2{
+    position: absolute;
+    width: 350px;
+    height: 330px;
+    left: 100px;
+    top: 1100px;
+    bottom: -110px;  
+}
+/*---pie de pagina----*/
+/*-----padre----*/
+.footer{
+    position: relative;
+    top: 800px;
+    background-color: black;
+    width: 100%;
+    height: 160PX;
+    
+    
+}
+
+/*----hijo-----*/
+.piepagina{
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    color: white;
+    font-size: 14px;
+    padding: 8px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    
+
+}
+
+.informacion{
+    position: absolute;
+    color: white;
+    top: 35px;
+    left: 300px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+/*----fin pie de pagina------*/

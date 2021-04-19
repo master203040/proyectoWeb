@@ -1,33 +1,35 @@
-.title{
-    font-size: 45px;
-    font-family: 'Roboto', sans-serif;
+*{
+    margin: 0;
+    padding: 0;
 }
-
-.navigation{
-    font-size: 15px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.title1{
-    font-size: 30px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.title2{
-    font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
-    font-style: italic;
+/*----inicio del codigo menu y banner------*/
+img{
+    width: 100%;
     
 }
 
-p{
-    font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
-    font-style:italic;
-}
-
-.footer{
-    text-align: center;
-    background-color: dimgray;
+.cabeza{
+    position: absolute;
+    left: 35px;
+    bottom: 300px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
     color: white;
 }
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    left: 230px;
+    bottom: 550px;
+}
+
+.menu a{
+    text-decoration: none;
+    margin: 8px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: white;  
+}
+/*----fin del codigo-----*/
