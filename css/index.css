@@ -8,12 +8,13 @@ body{
 }
 
 img{
-    width: 100%;  
+    width: 100%;
+    
 }
 
 .cabeza{
     position: absolute;
-    bottom: 270px;
+    top: 200px;
     color: white;
     left: 100px;
     font-family: 'Roboto', sans-serif;
@@ -23,6 +24,7 @@ img{
 ul{
     display: flex;
     position: absolute;
+    top: 30px;
     left: 260px;
     bottom: 550px;
     list-style: none;
