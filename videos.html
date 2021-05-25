@@ -6,38 +6,64 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>descarga tus videos</title>
         <link rel="stylesheet" href="css/videos.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     </head>
-    <body>
-        <header>
-            <div class="banner">
-                <img src="img/angel-1055391_1280.jpg" alt="imagen10">
-                <h1 class="cabeza">Estación/Rock Medallon</h1>
-                    <nav>
-                        <ul>                                         
-                            <li><a href="index.html">Pagina Principal</a></li>
-                            <li><a href="registro.html">Registrate Aqui</a></li>
-                            <li><a href="bandas.html">Las Mejores Bandas</a></li>
-                            <li><a href="videos.html">Ver Videos</a></li>
-                            <li><a href="musica.html">Descarga tu Musica Aqui</a></li>
-                            <li><a href="https://indyrock.es/latinonews.htm" target="_BLANK">Noticias de las Bandas</a></li>
-                            <li><a href="https://www.last.fm/es/tag/rock+en+espanol" target="_BLANK"> Pagina Amigas</a></li>  
-                        </ul>
-                    </nav>
+    <body class="bg-dark text-white">
+        <div class="container">
+            <header class="d-flex justify-content-center py-3  bg-dark ">
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="index.html" class="nav-link active bg-secondary bg-gradient" aria-current="page"><h2>Estacion/Rock Medallo</h2></a></li>
+                    <li class="nav-item"><a href="registro.html" class="nav-link text-white">Registrate</a></li>
+                    <li class="nav-item"><a href="bandas.html" class="nav-link text-white">Bandas</a></li>
+                    <li class="nav-item"><a href="videos.html" class="nav-link text-white">Videos</a></li>
+                    <li class="nav-item"><a href="musica.html" class="nav-link text-white">Musica</a></li>
+                    <li class="nav-item"><a href="https://indyrock.es/latinonews.htm" class="nav-link text-white" target="_blank">IndyRock Magazin</a></li>
+                    <li class="nav-item"><a href="https://www.last.fm/es/tag/rock+en+espanol" class="nav-link text-white" target="_blank">Last.FM</a></li>
+                </ul>
+            </header>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12">
+                    <img src="img/Banner1.jpg" class="img-fluid w-100 rounded-3" alt="img1">
+                </div>
             </div>
-        </header>
+        </div>
+
         <main>
-            <h1 class="title1">Videos de las Mejores Bandas </h1> 
+            <h1 class="text-center fw-bold p-3">Videos de las Mejores Bandas </h1> 
             <section>
-                <h2>Soda Estereo</h2>
-                <p>
-                     La ciudad de la furia es una canción y sencillo de la banda de rock argentina Soda Stereo, escrita y compuesta por Gustavo Cerati. ...La ciudad de la furia en la letra se expresa con la capital de la República Argentina (Buenos Aires). Hasta el día de hoy, es uno de los populares apodos en la ciudad porteña.
-                </p>
-                <video src="video/Soda Stereo  En La Ciudad De La Furia.mp4" controls></video>
-                <h2>Atersiopelados</h2>
-                <p>
-                    Aterciopelados es una agrupación que nació a partir de Delia y Los Aminoácidos, que reunió al bajista Héctor Buitrago (exintegrante de la banda punk La Pestilencia) con la cantante Andrea Echeverri, graduada en bellas artes y ceramista
-                </p>
-                <video src="video/atersiopelados.mp4" controls></video>
+                <div class="container">
+                    <h2 class="text-center p-3 fw-bold">Soda Estereo</h2>
+                    <div class="row">
+                        <div class="col-12 col-md-5">
+                            <video src="video/Soda Stereo  En La Ciudad De La Furia.mp4" class="img-fluid w-100 rounded-3" controls></video>
+                        </div>
+                        <div class="col-12 col-md-7">
+                            <p class="fw-light ">
+                                La ciudad de la furia es una canción y sencillo de la banda de rock argentina Soda Stereo, escrita y compuesta por Gustavo Cerati. ...La ciudad de la furia en la letra se expresa con la capital de la República Argentina (Buenos Aires). Hasta el día de hoy, es uno de los populares apodos en la ciudad porteña.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <h2 class="text-center p-3 fw-bold">Atersiopelados</h2>
+                    <div class="row">
+                        <div class="col-12 col-md-5">
+                            <video src="video/atersiopelados.mp4" class="img-fluid w-100 rounded" controls></video>
+                        </div>
+                        <div class="col-12 col-md-7">
+                            <p class="fw-light">
+                                Aterciopelados es una agrupación que nació a partir de Delia y Los Aminoácidos, que reunió al bajista Héctor Buitrago (exintegrante de la banda punk La Pestilencia) con la cantante Andrea Echeverri, graduada en bellas artes y ceramista
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+               
+                
+                
+               
                 <h2>Kraken</h2>
                 <p>
                     Cuando usted lanzó Frágil al viento, 20 días después se presentó en Manizales y los asistentes al concierto coreaban las canciones de ese disco, ¿a qué cree que se deba su éxito en Manizales?
@@ -74,4 +100,5 @@
             <p>Medellin-2021</p>
         </footer>
     </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </html>
